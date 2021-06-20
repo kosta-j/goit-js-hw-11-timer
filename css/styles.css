@@ -1,20 +1,31 @@
 body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #332c2c;
   color: coral;
+  font-size: 16px;
 }
 
 .timer {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
 }
 
-.field span {
-  display: block;
-  /* margin-right: 30px; */
+.timer .field {
+  display: flex;
+  flex-direction: column;
 }
 
-.value {
-  font-size: 50px; {
-  font-size: small;
+.field .value {
+  font-size: 70px;
+}
+
+.field .label {
+  padding-left: 20px;
+  text-transform: uppercase;
+}
+
+.timer .field:first-child .label {
+  padding: 0;
 }
