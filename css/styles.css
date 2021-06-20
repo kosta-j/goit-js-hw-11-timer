@@ -2,3 +2,19 @@ body {
   background-color: #332c2c;
   color: coral;
 }
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field span {
+  display: block;
+  /* margin-right: 30px; */
+}
+
+.value {
+  font-size: 50px; {
+  font-size: small;
+}
