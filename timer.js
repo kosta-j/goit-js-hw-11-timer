@@ -46,5 +46,5 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("Jul 17, 2021 23:59:59"),
+  targetDate: new Date("Jan 1, 2022 00:00:00"),
 });
